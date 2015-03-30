@@ -7,6 +7,7 @@ require('./main.css');
 var React = require('react');
 var App = require('./components/App/App.jsx');
 
+
 React.renderComponent((
   <App />
-), document.body);
+), document.getElementById("billInfo"));
