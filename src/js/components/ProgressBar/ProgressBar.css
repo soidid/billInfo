@@ -1,4 +1,4 @@
-.ProgressBar {
+#billInfo .ProgressBar {
 	text-align: left;
 	border: 1px solid gray;
 	display: inline-block;
@@ -11,16 +11,16 @@
 	font-size: 20px;
 	font-weight: 800;
 }
-.ProgressBar-section {
+#billInfo .ProgressBar-section {
 	margin-top: 24px;
 }
-.ProgressBar-item {
+#billInfo .ProgressBar-item {
 	
 	display: inline-block;
 	width: 100px;
 	vertical-align: top;
 }
-.ProgressBar-brick {
+#billInfo .ProgressBar-brick {
 	//border-bottom: 2px solid gray;
 	background: rgb(200,200,200);
 	height: 22px;
@@ -29,7 +29,8 @@
 	text-align: center;
     
     margin: 6px 14px 0px 0px;
-    padding-top: 4px;
+    //padding-top: 4px;
+    font-size: 16px; 
 	
 	
 }
@@ -42,10 +43,10 @@
     border-bottom-right-radius: 10px;
 }
 */
-.ProgressBar-brick.is-completed {
+#billInfo .ProgressBar-brick.is-completed {
 	background: #94D4B6;
 }
-.ProgressBar-brick.is-current {
+#billInfo .ProgressBar-brick.is-current {
 	background: gold;	
 }
 .ProgressBar-brick:before {
